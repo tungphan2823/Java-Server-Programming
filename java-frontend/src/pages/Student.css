@@ -1,0 +1,19 @@
+.studentMain{
+    
+    height: 750px;
+    width: 100%;
+    background-color: #1F4D58;
+    border-radius: 2rem;
+    padding: 2rem;
+    color: aliceblue;
+}
+.studentTitle{
+    display: flex;
+    justify-content: space-between;
+}
+.studentEdit{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 90%;
+    border-radius: 2rem;
+}

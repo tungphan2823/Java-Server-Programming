@@ -1,0 +1,7 @@
+.MainCard{
+    padding: 2rem;
+}
+.studentList{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}

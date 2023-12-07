@@ -1,0 +1,32 @@
+.EnrollMain{
+    height: 750px;
+    width: 100%;
+    max-width: 75rem;
+    background-color: #2E2E3A;
+    border-radius: 2rem;
+    padding: 2rem;
+    color: aliceblue;
+}
+.EnrollTitle{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.enrollContainer{
+    display: flex;
+}
+.EnrollForm{
+    padding: 5rem;
+    background-color: #5C6AED;
+    background-size: cover;
+    border-radius:2rem;
+}
+.textInput{
+    padding-bottom: 1rem;
+}
+.rowCard{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 90%;
+    border-radius: 2rem;
+}

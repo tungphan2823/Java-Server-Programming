@@ -1,0 +1,11 @@
+.DashCard{
+ display: flex;
+
+}
+
+.table{
+    display: flex;
+}
+.dashboard{
+    width: 100%;
+}

@@ -1,0 +1,36 @@
+/* .Outlet {
+  
+  color: black;
+  justify-content: center;
+  width: calc(100vw - 315px);
+  height: 100%;
+  
+  padding: 2rem;
+}
+
+.Sidebar {
+  position: fixed;
+  display: grid;
+}
+ */
+ .container {
+  display: flex; /* use flexbox layout */
+  height: 100%; /* fill the whole height of the page */
+}
+
+.Sidebar {
+  flex: 0 0 300px; /* set the sidebar width to 300px and do not grow or shrink */
+  position: sticky; /* make the element stick to its position */
+  top: 0; /* set the distance from the top of the container to 0 */
+  height: 100vh;
+}
+
+
+.Outlet {
+  flex: 1; /* fill the remaining space of the container */
+  color: black;
+  justify-content: center;
+  padding: 3rem;
+  text-align: left;
+  align-items: center;
+}

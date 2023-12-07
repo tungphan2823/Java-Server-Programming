@@ -1,0 +1,10 @@
+.courseContainer{
+    background-color: #9A6DD0;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.courseDetail{
+    background-color: aliceblue;
+    padding: 2rem;
+    border-radius: 2rem;
+}
